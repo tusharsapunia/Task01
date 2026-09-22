@@ -23,7 +23,7 @@ const pass = students.filter((curl) => {
 });
 
 // console.log([...students]);
-const sort = [...students].sort((a, b) => {
+const sort = students.sort((a, b) => {
   return b.marks - a.marks;
 });
 const Toper = sort[0];
